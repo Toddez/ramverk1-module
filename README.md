@@ -6,3 +6,19 @@
 
 This module is part of the course *ramverk1* at *Blekinge Tekniska Högskola* and is being used for educational purposes.
 
+## Installation
+
+``composer require toddez/ramverk1-module``
+
+## Configuration
+The module uses two APIs: ipstack and OpenWeather. Both require keys to be configured in ``config/api.php``  
+
+Example:
+```php
+<?php
+
+return [
+    "ipstackKey" => "secret key",
+    "openweatherKey" => "secret key"
+];
+```
