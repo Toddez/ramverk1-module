@@ -12,10 +12,10 @@ Install module
 ``composer require toddez/ramverk1-module``  
 
 Copy configuration  
-``rsync -av vendor/toddez/ramverk1-module/config config/``  
+``rsync -av vendor/toddez/ramverk1-module/config/ config/``  
 
 Copy/add views  
-``rsync -av vendor/toddez/ramverk1-module/view view/``  
+``rsync -av vendor/toddez/ramverk1-module/view/ view/``  
 **or**  
 Add ``ANAX_INSTALL_PATH . "/vendor/toddez/ramverk1-module/view"`` to ``config/view.php``'s paths
 
