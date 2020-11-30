@@ -8,7 +8,16 @@ This module is part of the course *ramverk1* at *Blekinge Tekniska Högskola* an
 
 ## Installation
 
-``composer require toddez/ramverk1-module``
+Install module  
+``composer require toddez/ramverk1-module``  
+
+Copy configuration  
+``rsync -av vendor/toddez/ramverk1-module/config config/``  
+
+Copy/add views  
+``rsync -av vendor/toddez/ramverk1-module/view view/``  
+**or**  
+Add ``ANAX_INSTALL_PATH . "/vendor/toddez/ramverk1-module/view"`` to ``config/view.php``'s paths
 
 ## Configuration
 The module uses two APIs: ipstack and OpenWeather. Both require keys to be configured in ``config/api.php``  
