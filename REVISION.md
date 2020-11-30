@@ -1,6 +1,10 @@
 Revision history
 ===================
 
+v1.0.3 (2020-11-30)
+-------------------
+* Fixed rsync commands in README.md
+
 v1.0.2 (2020-11-30)
 -------------------
 * Added default routers to config/router to make installation easier
