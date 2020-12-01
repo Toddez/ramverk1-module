@@ -36,4 +36,11 @@ class WeatherTest extends TestCase
 
         $this->assertFalse($forecast["error"]);
     }
+
+    public function testInvalidKeys()
+    {
+        $this->model->setApiKey("invalid_key");
+        $forecast = $this->model->getForecast("London");
+        $this->assertTrue($forecast["error"]);
+    }
 }
