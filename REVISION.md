@@ -1,6 +1,11 @@
 Revision history
 ===================
 
+v1.0.5 (2020-11-30)
+-------------------
+* Added check for edge case in weather model
+* Added more tests to test edge case in weather model
+
 v1.0.4 (2020-11-30)
 -------------------
 * Added phpcs config
