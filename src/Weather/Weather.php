@@ -32,6 +32,10 @@ class Weather implements ContainerInjectableInterface
 
         $data = $this->curl($url);
 
+        if (empty($data)) {
+            return [];
+        }
+
         if ($data["cod"] !== 200) {
             return [];
         }
