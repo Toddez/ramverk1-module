@@ -24,4 +24,5 @@ jobs:
                 paths:
                     - ./vendor
 
+            - run: make check
             - run: make test
