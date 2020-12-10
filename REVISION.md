@@ -1,6 +1,11 @@
 Revision history
 ===================
 
+v1.0.6 (2020-12-10)
+* Added CricleCI config
+* Added Scrutinizer config
+* Changed README.md badges
+
 v1.0.5 (2020-11-30)
 -------------------
 * Added check for edge case in weather model
